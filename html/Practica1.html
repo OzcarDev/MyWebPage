@@ -10,29 +10,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link rel="icon" href="../img/HollowKnightIcon.png">
     <link rel="stylesheet" href="../css/style.css">
 
 
 </head>
 <body>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <header>
        <!--  <img src="img/HollowKnightBanner.png" alt="Banner de HollowKnight"> -->
-        <h1 class="align-center" id="Inicio">HOLLOW KNIGHT</h1>
+        <h1 class="align-center display-1" id="Inicio">HOLLOW KNIGHT</h1>
         <p class="align-center">Escrito por: Oscar Yair Núñez Hernández</p>
         <p class="align-center">Edad: 20 años</p>
         <p class="align-center">Materia: Desarrollo Web</p>
         <br/>
-        <nav>
-            <ul>
-                <li><a href="#Ficha">Ficha Técnica</a></li>
-                <li><a href="#QueEs">¿Qué es Hollow Knight?</a></li>
-                <li><a href="#Desarrollo">Desarrollo y Lanzamiento</a></li>
-                <li><a href="#Videos">Tráilers</a></li>
-                <li><a href="#TeamCherry">Team Cherry</a></li>
-                <li><a href="#Criticas">Críticas</a></li>
-            </ul>
-        </nav>
+       
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Contenido</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Ficha">Ficha Técnica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#QueEs">¿Qué es Hollow Knight?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Desarrollo">Desarrollo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Videos">Tráilers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#TeamCherry">Team Cherry</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Criticas">Críticas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
     </header>
     <hr/>
     <main>
@@ -57,10 +85,13 @@
             <section class="box-1">
                 <article  id="Ficha">
                     <h2 class="align-center">Ficha Técnica</h2>
-                    <table class="center ficha">
+                    <table class="table table-dark">
+                        <thead>
                         <tr>
-                            <th colspan="2">Información General</th>
+                            <th colspan="2" class="align-center">Información General</th>
                         </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td><b>Desarrollador</b></td>
                             <td>Team Cherry</td>
@@ -86,7 +117,7 @@
                             <td>Christopher Larkin</td>
                         </tr>
                         <tr>
-                            <th colspan="2">Datos del Juego</th>
+                            <th colspan="2" class="align-center">Datos del Juego</th>
                         </tr>
                         <tr>
                             <td><b>Género</b></td>
@@ -118,11 +149,11 @@
                             <td><b>Clasificaciones</b></td>
                             <td>
                                 
-                                <img src="../img/Esbr+10.png" alt=" ESBR Todos +10">
+                                <img src="../img/Esbr+10.png" class="img-thumbnail" alt=" ESBR Todos +10">
                             </td>
                         </tr>
                         <tr>
-                            <th colspan="2">Datos del Software</th>
+                            <th colspan="2" class="align-center">Datos del Software</th>
                         </tr>
                         <tr>
                             <td><b>Motor</b></td>
@@ -142,7 +173,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th colspan="2">Desarrollo</th>
+                            <th colspan="2" class="align-center">Desarrollo</th>
                         </tr>
                             <td><b>Lanzamiento</b></td>
                             <td>
@@ -154,6 +185,7 @@
                                 </ol>
                             </td>
                         </tr>
+                    </tbody>    
                     </table>
                 </article>
             </section>
@@ -161,17 +193,27 @@
             <hr/>
         
         <div id="Videos" >
-         <section class="grid-2">
-            <article class="box-1">
-                <h2 class="align-center">Tráiler de lanzamiento</h2>
-                <iframe  width="560" height="315" src="https://www.youtube.com/embed/UAO2urG23S4?si=ovBMnRTe27nbp0wF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </article>
+ 
+         <h2 class="align-center">Tráiler de lanzamiento</h2>
 
-            <article class="box-1">
-                <h2 class="align-center">Tráiler de Silksong</h2>
-                <iframe  width="560" height="315" src="https://www.youtube.com/embed/yQxwbZsL14Y?si=KqUBQJb-0Z3UX_m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </article>
-        </section>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe  width="1680" height="945" src="https://www.youtube.com/embed/UAO2urG23S4?si=ovBMnRTe27nbp0wF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="carousel-item">
+                <iframe  width="1680" height="945" src="https://www.youtube.com/embed/yQxwbZsL14Y?si=KqUBQJb-0Z3UX_m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
             <hr/>
         <div id="TeamCherry">
@@ -181,7 +223,7 @@
                     <h2 class="align-center">Team Cherry</h2>
                     <p>Team Cherry es una desarrolladora indie de videojuegos con sede en Adelaida, Australia. Hollow Knight es su primer juego publicado y en 2017 comenzaron el desarrollo de la secuela titulada Silksong.</p>
                     <a href="https://www.teamcherry.com.au/">Sitio Oficial de Team Cherry</a>
-                    <img src="../img/TeamCherryLogo.png" alt="Logo de Team Cherry">
+                    <img src="../img/Team_cherry_Logo_Red.png" class="width50" alt="Logo de Team Cherry">
 
                     
                 </article>
@@ -195,128 +237,121 @@
             <section class="grid-3">
                 
                 <article class="box-1 align-center">
-                    <h3>Ari Gibson</h3>
-                    <br/>
-                    <img src="../img/AriGibson.png" alt="Ari Gibson">
-                    <br/>
-                    <p>Ari es responsable del diseño del juego junto a William. Él crea el arte, los entornos y anima cientos de errores.</p>
-
-                    <details>
-                        <summary>Más información</summary>
-                        <p>Ari es codirector del equipo Cherry. Anteriormente dirigió el estudio de animación Mechanical Apple y ha trabajado en innumerables proyectos en películas, juegos y videos musicales. Ari ha estado modificando juegos desde antes de que las computadoras fueran de color y los ha amado desde su primer alquiler de juegos: Faxanadu para NES.</p>
-                      </details>
-                    
+                      <div class="card" style="width: 18rem;">
+                        <img src="../img/AriGibson.png" alt="Ari Gibson">
+                        <div class="card-body">
+                          <h5 class="card-title">Ari Gibson</h5>
+                          <p class="card-text">Ari es responsable del diseño del juego junto a William. Él crea el arte, los entornos y anima cientos de errores.</p>
+                          <details>
+                            <summary>Más información</summary>
+                            <p>Ari es codirector del equipo Cherry. Anteriormente dirigió el estudio de animación Mechanical Apple y ha trabajado en innumerables proyectos en películas, juegos y videos musicales. Ari ha estado modificando juegos desde antes de que las computadoras fueran de color y los ha amado desde su primer alquiler de juegos: Faxanadu para NES.</p>
+                          </details>
+                        </div>
+                      </div>
                 </article>
 
                 <article class="box-1 align-center">
-                    <h3>William Pellen</h3>
-                    <br/>
-                    <img src="../img/WilliamPellen.png" alt="WilliamPellen">
-                    <br/>
-                    <p>William diseña los juegos junto con Ari. Crea el comportamiento del enemigo, el jefe y el juego.</p>
-
-                    <details>
-                        <summary>Más información</summary>
-                         <p>William es codirector del equipo Cherry. Ha estado diseñando y construyendo juegos durante años, creando mundos locos para que la gente pueda explorar y explorar. Le encantan los juegos desde que su padre encontró las botas de ala para él en Zelda 2, y quiere recrear esa experiencia de aventura y emoción para otras personas.</p>
-                    </details>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/WilliamPellen.png" alt="WilliamPellen">
+                        <div class="card-body">
+                          <h5 class="card-title">William Pellen</h5>
+                          <p class="card-text">William diseña los juegos junto con Ari. Crea el comportamiento del enemigo, el jefe y el juego.</p>
+                          <details>
+                            <summary>Más información</summary>
+                             <p>William es codirector del equipo Cherry. Ha estado diseñando y construyendo juegos durante años, creando mundos locos para que la gente pueda explorar y explorar. Le encantan los juegos desde que su padre encontró las botas de ala para él en Zelda 2, y quiere recrear esa experiencia de aventura y emoción para otras personas.</p>
+                        </details>
+                        </div>
+                      </div>
                 </article>
 
-                <article class="box-1 align-center">
-                    <h3>Jack Vine</h3>
-                    <br/>
-                    <img src="../img/JackVine.png" alt="Jack Vine">
-                    <br/>
-                    <p>Jack se encarga de que todo el juego funcione, es el programador principal.</p>
-                    <details>
-                        <summary>Más información</summary>
-                        <p>Jack es el codificador supremamente talentoso del equipo Cherry. Jack ha estado construyendo los sistemas, ajustando y optimizando y agregando un conjunto de todas las nuevas características interesantes. Jack ha trabajado con el equipo Cherry desde hace algún tiempo, siendo instrumental en los lanzamientos de consolas de Hollow Knight y el desarrollo de su enorme paquete de contenido gratuito final, Godmaster.</p>
-                    </details>
-                    
+                <article class="box-1 align-center">               
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/JackVine.png" alt="Jack Vine">
+                        <div class="card-body">
+                          <h5 class="card-title">Jack Vine</h5>
+                          <p class="card-text">Jack se encarga de que todo el juego funcione, es el programador principal.</p>
+                          <details>
+                            <summary>Más información</summary>
+                            <p>Jack es el codificador supremamente talentoso del equipo Cherry. Jack ha estado construyendo los sistemas, ajustando y optimizando y agregando un conjunto de todas las nuevas características interesantes. Jack ha trabajado con el equipo Cherry desde hace algún tiempo, siendo instrumental en los lanzamientos de consolas de Hollow Knight y el desarrollo de su enorme paquete de contenido gratuito final, Godmaster.</p>
+                        </details>
+                        </div>
+                      </div>
                 </article>
             </section>
         </div>
             <hr/>
+
+
         <div id="Criticas">
             <h2 class="align-center">Críticas</h2>
-            <section class="grid-2">
-                <article>
-                    <table>
-                    <tr>
-                        <td class="background-green align-center text-white non-border width25px">95</td>
-                        <td class="non-border">
-                            <h3>Nintenderos</h3>
-                            <p>Su historia épica y mitología propia, su jugabilidad fácil pero tremendamente estratégica y cuidada y su banda sonora perfectamente ligada con las sensaciones que suscita el estilo visual hacen de Hollow Knight un juego imprescindible para cualquiera que tenga una Nintendo Switch.</p>
-                        </td>
-                        <td class="non-border">12 de Julio, 2018</td>
-                    </tr>
-                    </table>
+            <section class="grid-3">
+
+                <article class="box-1 align-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Nintenderos</h5>
+                          <p>12 de Julio, 2018</p>
+                          <p class="card-text">Su historia épica y mitología propia, su jugabilidad fácil pero tremendamente estratégica y cuidada y su banda sonora perfectamente ligada con las sensaciones que suscita el estilo visual hacen de Hollow Knight un juego imprescindible para cualquiera que tenga una Nintendo Switch.</p>
+                        </div>
+                      </div>
                 </article>
 
-                <article>
-                    <table>
-                    <tr>
-                        <td class="background-green align-center text-white non-border width25px">95</td>
-                        <td class="non-border">
-                            <h3>Hobby Consolas</h3>
-                            <p>Hollow Knight no te dejará vacío; todo lo contrario. Este increíble 'metroidvania', probablemente el mejor ejemplo que el género ha conocido en más de 20 años, te dejará con una sensación que sólo unos pocos juegos han logrado: la sensación de haber jugado una obra maestra.</p>
-                        </td>
-                        <td class="non-border">27 junio, 2018</td>
-                    </tr>
-                    </table>
+                <article class="box-1 align-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Hobby Consolas</h5>
+                          <p>27 junio, 2018</p>
+                          <p class="card-text">Hollow Knight no te dejará vacío; todo lo contrario. Este increíble 'metroidvania', probablemente el mejor ejemplo que el género ha conocido en más de 20 años, te dejará con una sensación que sólo unos pocos juegos han logrado: la sensación de haber jugado una obra maestra.</p>
+                        </div>
+                      </div>
                 </article>
 
-                <article>
-                    <table>
-                    <tr>
-                        <td class="background-green align-center text-white non-border width25px">94</td>
-                        <td class="non-border">
-                            <h3>IGN</h3>
-                            <p>Hollow Knight es un Metroidvania con un pozo de contenido por descubrir tan profundo como sus cuevas laberínticas. El mundo de Hallownest es fascinante y rico, lleno de historias que puedes descubrir por tu cuenta y construido con caminos ramificados que ofrecen una cantidad absurda de opciones sobre cómo descubrirlo. Con una densidad tan alta de secretos por encontrar y enemigos divertidos y desafiantes a los que enfrentarse, vale la pena pasar cada momento que puedas en Hollow Knight.</p>
-                        </td>
-                        <td class="non-border">22 de Junio,2018</td>
-                    </tr>
-                    </table>
+                <article class="box-1 align-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">IGN</h5>
+                          <p>22 de Junio,2018</p>
+                          <p class="card-text">Hollow Knight es un Metroidvania con un pozo de contenido por descubrir tan profundo como sus cuevas laberínticas. El mundo de Hallownest es fascinante y rico, lleno de historias que puedes descubrir por tu cuenta y construido con caminos ramificados que ofrecen una cantidad absurda de opciones sobre cómo descubrirlo. Con una densidad tan alta de secretos por encontrar y enemigos divertidos y desafiantes a los que enfrentarse, vale la pena pasar cada momento que puedas en Hollow Knight.</p>
+                        </div>
+                      </div>
                 </article>
 
-                <article>
-                    <table>
-                    <tr>
-                        <td class="background-green align-center text-white non-border width25px">90</td>
-                        <td class="non-border">
-                            <h3>Vandal</h3>
-                            <p>Hollow Knight es uno de los mejores juegos de metroidvania que existen y funciona muy bien en Switch. Si aún no lo has jugado, tienes otra oportunidad de descubrir uno de los mejores juegos independientes de la generación.</p>
-                        </td>
-                        <td class="non-border">8 de Julio, 2018</td>
-                    </tr>
-                    </table>
+                <article class="box-1 align-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Vandal</h5>
+                          <p>8 de Julio, 2018</p>
+                          <p class="card-text">Hollow Knight es uno de los mejores juegos de metroidvania que existen y funciona muy bien en Switch. Si aún no lo has jugado, tienes otra oportunidad de descubrir uno de los mejores juegos independientes de la generación.</p>
+                        </div>
+                      </div>
                 </article>
 
-                <article>
-                    <table>
-                    <tr>
-                        <td class="background-green align-center text-white non-border width25px">90</td>
-                        <td class="non-border">
-                            <h3>3DJuegos</h3>
-                            <p>Hollow Knight es un gran juego de acción y aventuras con esencia de los clásicos metroidvania. Su hermoso estilo artístico, la gran variedad de enemigos y las batallas épicas contra los jefes finales son uno de los valores más importantes del juego.</p>
-                        </td>
-                        <td class="non-border">29 de junio, 2018</td>
-                    </tr>
-                    </table>
+                <article class="box-1 align-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">3DJuegos</h5>
+                          <p>29 de junio, 2018</p>
+                          <p class="card-text">Hollow Knight es un gran juego de acción y aventuras con esencia de los clásicos metroidvania. Su hermoso estilo artístico, la gran variedad de enemigos y las batallas épicas contra los jefes finales son uno de los valores más importantes del juego.</p>
+                        </div>
+                      </div>
                 </article>
             </section>
         </div>
     </main>
     <hr/>
+
+
     <footer>
         <h2>Bibliografía</h2>
-        <ol>
-            <li><a href="https://es.wikipedia.org/wiki/Hollow_Knight">Wikipedia</a></li>
-            <li><a href="https://www.teamcherry.com.au/about">Página oficial Team Cherry</a></li>
-            <li><a href="https://hollowknight.fandom.com/es/wiki/Team_Cherry">Wiki Hollow Knight</a></li>
-            <li><a href="https://www.metacritic.com/game/switch/hollow-knight">Metacritic</a></li>
-        </ol>
-
-        <a href="#Inicio">Volver al inicio 👆</a>
+       
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://es.wikipedia.org/wiki/Hollow_Knight">Wikipedia</a></li>
+            <li class="list-group-item"><a href="https://www.teamcherry.com.au/about">Página oficial Team Cherry</a></li>
+            <li class="list-group-item"><a href="https://hollowknight.fandom.com/es/wiki/Team_Cherry">Wiki Hollow Knight</a></li>
+            <li class="list-group-item"><a href="https://www.metacritic.com/game/switch/hollow-knight">Metacritic</a></li>
+          </ul>
+          <button type="button" class="btn btn-primary"><a href="#">Volver al inicio 👆</a></button>
+        
     </footer>
 </body>
 </html>
