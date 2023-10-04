@@ -12,3 +12,5 @@
 
 - [Parcial 02 práctica 07 - Archivo .Js](./js/Parcial02Práctica07.js)
 
+- [Parcial 02 práctica 08 - Archivo .Js](./js/Parcial02Práctica08.js)
+
