@@ -8,4 +8,3 @@ export function factorial(){
     return resultado;
 }
 
-console.log(factorial());
