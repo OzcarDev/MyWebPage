@@ -2,6 +2,8 @@
 
 - [Página Web](https://ozcardev.github.io/MyWebPage/)
 
+  ## Parcial 02
+
 - [Página Web que analicé](https://www.playstation.com/es-mx/games/nba-2k/)
 
 - [Parcial 02 práctica 04 - Archivo .JS](./js/Parcial02Práctica04.js)
