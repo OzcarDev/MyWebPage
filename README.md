@@ -2,7 +2,7 @@
 
 - [Página Web](https://ozcardev.github.io/MyWebPage/)
 
-  ## Parcial 02
+## Parcial 02
 
 - [Página Web que analicé](https://www.playstation.com/es-mx/games/nba-2k/)
 
