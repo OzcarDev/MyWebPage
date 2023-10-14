@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dom.css" />
     <title>Práctica 01 Parcial 03</title>
 </head>
 <body>
@@ -12,6 +13,50 @@
     <p></p>
     <ol></ol>
     <ul></ul>
+    <button id="btn-theme">🌙</button>
+
+    <img id="user-image" src="../img/Pinguin.png" alt="User Icon" height="auto" width="50%">
+    <form>
+        <input
+          name="user-icon"
+          id="pinguin-icon"
+          type="radio"
+          data-theme="../img/Pinguin.png"
+          data-name="Pinguin"
+          checked
+        />
+        <label for="pinguin-icon">Pinguino</label>
+        <br />
+        <input
+          name="user-icon"
+          id="cat-icon"
+          type="radio"
+          data-theme="../img/Cat.png"
+          data-name="Cat"
+        />
+        <label for="cat-icon">Gato</label>
+        <br />
+        <input
+          name="user-icon"
+          id="dog-icon"
+          type="radio"
+          data-theme="../img/Dog.png"
+          data-name="Dog"
+        />
+        <label for="dog-icon">Perro</label>
+        <br />
+        <input
+          name="user-icon"
+          id="bunny-icon"
+          type="radio"
+          data-theme="../img/Bunny.png"
+          data-name="Bunny"
+        />
+        <label for="bunny-icon">Conejo</label>
+        <br />
+      </form>
+
+    <script src="../js/Parcial03/Practica02.js"></script>
     <script src="../js/Parcial03/Practica01.js"></script>
 </body>
 </html>
