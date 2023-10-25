@@ -25,3 +25,5 @@
 - [Parcial 03 práctica 03 - Archivo .Js](./js/Parcial03/Practica03.js)
 
 - [Parcial 03 práctica 04 - Archivo .Js](./js/Parcial03/Practica03.js)
+
+- [Parcial 03 práctica 05 - Archivo .Js](./js/Parcial03/Practica05.js)
