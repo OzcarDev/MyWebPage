@@ -1,0 +1,29 @@
+{
+    "materias": [
+      {
+        "nombre": "Desarrollo de Aplicaciones Móviles",
+        "docente": "Diana Rodriguez",
+        "descripcion": "Desarrollar las mejoras para interfaces en aplicaciones móviles."
+      },
+      {
+        "nombre": "Desarrollo Para Aplicaciones Web",
+        "docente": "Jonathan MirCha",
+        "descripcion": "Conocer los principios, técnicas y metodologías de desarrollo profesional de aplicaciones para entornos web y aplicarlos en la construcción de sistemas web profesionales mediante la aplicación formal de dichas metodologías."
+      },
+      {
+        "nombre": "Proyecto Semestral",
+        "docente": "Rodrigo Saco",
+        "descripcion": "Conocer los conceptos elementales de la programación por computadora en los lenguajes C y C++, tanto en el ámbito del diseño algorítmico como en el de estructuración y desarrollo de software, implementar programas de tamaño medio, evaluando su corrección y eficiencia y ser capaz de identificar y abstraer los contenidos importantes de los problemas reales para elegir las soluciones mas eficientes para poder afrontar el diseño de programas de complejidad media, independientemente del lenguaje de programación a utilizar."
+      },
+      {
+        "nombre": "Simulación Física Para Realidad Virtual y Videojuegos",
+        "docente": "Ricardo Rodríguez",
+        "descripcion": "Conocer los algoritmos, técnicas y sistemas utilizados en la simulación profesional por computadora de comportamientos físicos para aplicarlos en el diseño y desarrollo de simuladores, entornos de realidad virtual y videojuegos o herramientas de software específicas para la simulación de animaciones físicas en entornos gráficos de simulación."
+      },
+      {   
+        "nombre": "Técnicas de Inteligencia Artificial Para Videojuegos",
+        "docente": "Juan José López Banyo",
+        "descripcion": "Conocer los conceptos elementales de la programación por computadora en los lenguajes C y C++, tanto en el ámbito del diseño algorítmico como en el de estructuración y desarrollo de software, implementar programas de tamaño medio, evaluando su corrección y eficiencia y ser capaz de identificar y abstraer los contenidos importantes de los problemas reales para elegir las soluciones mas eficientes para poder afrontar el diseño de programas de complejidad media, independientemente del lenguaje de programación a utilizar."
+      }
+    ]
+  }
